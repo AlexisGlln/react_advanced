@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+
+}
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        background-color: rgb(209, 209, 209);
+        
+    }
+    article {
+        width: 656px;
+        box-shadow: 50px 50px 10px black;
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    section{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    
+        }
+    img {
+        height: 200px;
+        width: 200px;
+    }
+    h1 {
+        margin: 25px;
+        font-size: 45px;
+        color: rgb(63, 58, 58);
+    }
+    h2 {
+        margin: 25px;
+        color: rgb(105, 98, 98);
+    }
+    .star {
+        border-top: 1px solid rgba(105, 98, 98, 0.26);
+    }
+    button {
+        font-size: 30px;
+        display: flex;
+        margin: auto;
+        margin-right: 30px;
+        border: none;
+        background-color: white;
+    }
+
